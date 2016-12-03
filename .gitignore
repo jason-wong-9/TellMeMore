@@ -66,3 +66,7 @@ fastlane/test_output
 
 #Mac env
 .DS_Store
+
+#Python stuff
+/clarifai/secrets.py
+
