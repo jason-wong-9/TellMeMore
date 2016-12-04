@@ -1,0 +1,6 @@
+framework module Pods_TellMeMore {
+  umbrella header "Pods-TellMeMore-umbrella.h"
+
+  export *
+  module * { export * }
+}
