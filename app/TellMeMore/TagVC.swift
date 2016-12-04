@@ -31,6 +31,15 @@ class TagVC: UIViewController, UITableViewDelegate, UITableViewDataSource {
         
     }
     
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        if let  cell = tableView.cellForRow(at: indexPath) as? TagCell {
+            let destinationViewController = UIStoryboard.init(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "WebView") as! WebVC
+            destinationViewController.conceptString = cell.currentTag.tag
+            navigationController?.pushViewController(destinationViewController, animated: true)
+        }
+        
+    }
+    
     func numberOfSections(in tableView: UITableView) -> Int {
         return 1
     }

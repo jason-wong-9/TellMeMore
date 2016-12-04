@@ -8,13 +8,19 @@
 
 import UIKit
 
+extension Double {
+    func roundTo(decimalPlaces: Int) -> String {
+        return NSString(format: "%.\(decimalPlaces)f" as NSString, self) as String
+    }
+}
+
 class TagCell: UITableViewCell {
 
     @IBOutlet weak var tagLabel: UILabel!
     @IBOutlet weak var scoreLabel: UILabel!
     
     
-    
+    var currentTag: Tag!
     
 
     override func awakeFromNib() {
@@ -24,9 +30,10 @@ class TagCell: UITableViewCell {
 
     func configureCell(_ tag:Tag){
         
-        
+        currentTag = tag
         tagLabel.text = tag.tag.capitalized
-        scoreLabel.text = "\(tag.score)"
+        
+        scoreLabel.text = "\(tag.score.roundTo(decimalPlaces: 2))"
         
         
     }
