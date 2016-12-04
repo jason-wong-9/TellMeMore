@@ -7,21 +7,37 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2046F68432882CCD4681D87E /* Pods_TellMeMore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4111C61EA56D8E77938A2BA2 /* Pods_TellMeMore.framework */; };
 		96F631521DF35A44001F9557 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96F631511DF35A44001F9557 /* AppDelegate.swift */; };
-		96F631541DF35A44001F9557 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96F631531DF35A44001F9557 /* ViewController.swift */; };
+		96F631541DF35A44001F9557 /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96F631531DF35A44001F9557 /* MainVC.swift */; };
 		96F631571DF35A44001F9557 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96F631551DF35A44001F9557 /* Main.storyboard */; };
 		96F631591DF35A44001F9557 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96F631581DF35A44001F9557 /* Assets.xcassets */; };
 		96F6315C1DF35A44001F9557 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96F6315A1DF35A44001F9557 /* LaunchScreen.storyboard */; };
+		D2C574E21DF36B88000A9DBB /* WebVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C574E11DF36B88000A9DBB /* WebVC.swift */; };
+		D2C574E41DF37635000A9DBB /* Services.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C574E31DF37635000A9DBB /* Services.swift */; };
+		D2C574EA1DF377EF000A9DBB /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C574E91DF377EF000A9DBB /* Request.swift */; };
+		D2C574EC1DF3876A000A9DBB /* TagCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C574EB1DF3876A000A9DBB /* TagCell.swift */; };
+		D2C574EE1DF38A45000A9DBB /* TagVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C574ED1DF38A45000A9DBB /* TagVC.swift */; };
+		D2C574F01DF38CEC000A9DBB /* Tag.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C574EF1DF38CEC000A9DBB /* Tag.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4111C61EA56D8E77938A2BA2 /* Pods_TellMeMore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TellMeMore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		76E2A469733FFEDA085FA42B /* Pods-TellMeMore.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TellMeMore.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TellMeMore/Pods-TellMeMore.debug.xcconfig"; sourceTree = "<group>"; };
 		96F6314E1DF35A44001F9557 /* TellMeMore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TellMeMore.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		96F631511DF35A44001F9557 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		96F631531DF35A44001F9557 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		96F631531DF35A44001F9557 /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
 		96F631561DF35A44001F9557 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		96F631581DF35A44001F9557 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		96F6315B1DF35A44001F9557 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		96F6315D1DF35A44001F9557 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AFB013E9EF53843E749672F1 /* Pods-TellMeMore.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TellMeMore.release.xcconfig"; path = "Pods/Target Support Files/Pods-TellMeMore/Pods-TellMeMore.release.xcconfig"; sourceTree = "<group>"; };
+		D2C574E11DF36B88000A9DBB /* WebVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebVC.swift; sourceTree = "<group>"; };
+		D2C574E31DF37635000A9DBB /* Services.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Services.swift; sourceTree = "<group>"; };
+		D2C574E91DF377EF000A9DBB /* Request.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Request.swift; sourceTree = "<group>"; };
+		D2C574EB1DF3876A000A9DBB /* TagCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TagCell.swift; sourceTree = "<group>"; };
+		D2C574ED1DF38A45000A9DBB /* TagVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TagVC.swift; sourceTree = "<group>"; };
+		D2C574EF1DF38CEC000A9DBB /* Tag.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tag.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +45,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2046F68432882CCD4681D87E /* Pods_TellMeMore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		88D62447D333ABAFC871B8A8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				76E2A469733FFEDA085FA42B /* Pods-TellMeMore.debug.xcconfig */,
+				AFB013E9EF53843E749672F1 /* Pods-TellMeMore.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		96F631451DF35A44001F9557 = {
 			isa = PBXGroup;
 			children = (
 				96F631501DF35A44001F9557 /* TellMeMore */,
 				96F6314F1DF35A44001F9557 /* Products */,
+				88D62447D333ABAFC871B8A8 /* Pods */,
+				DA1C3955E265304D54CA4D62 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,13 +83,59 @@
 			isa = PBXGroup;
 			children = (
 				96F631511DF35A44001F9557 /* AppDelegate.swift */,
-				96F631531DF35A44001F9557 /* ViewController.swift */,
-				96F631551DF35A44001F9557 /* Main.storyboard */,
+				D2C574E81DF37794000A9DBB /* Services */,
+				D2C574E71DF3778D000A9DBB /* Controller */,
+				D2C574E61DF37788000A9DBB /* View */,
+				D2C574E51DF37780000A9DBB /* Model */,
 				96F631581DF35A44001F9557 /* Assets.xcassets */,
+				96F631551DF35A44001F9557 /* Main.storyboard */,
 				96F6315A1DF35A44001F9557 /* LaunchScreen.storyboard */,
 				96F6315D1DF35A44001F9557 /* Info.plist */,
 			);
 			path = TellMeMore;
+			sourceTree = "<group>";
+		};
+		D2C574E51DF37780000A9DBB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D2C574E91DF377EF000A9DBB /* Request.swift */,
+				D2C574EF1DF38CEC000A9DBB /* Tag.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		D2C574E61DF37788000A9DBB /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D2C574EB1DF3876A000A9DBB /* TagCell.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		D2C574E71DF3778D000A9DBB /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				D2C574E11DF36B88000A9DBB /* WebVC.swift */,
+				96F631531DF35A44001F9557 /* MainVC.swift */,
+				D2C574ED1DF38A45000A9DBB /* TagVC.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		D2C574E81DF37794000A9DBB /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				D2C574E31DF37635000A9DBB /* Services.swift */,
+			);
+			name = Services;
+			sourceTree = "<group>";
+		};
+		DA1C3955E265304D54CA4D62 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4111C61EA56D8E77938A2BA2 /* Pods_TellMeMore.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +145,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 96F631601DF35A44001F9557 /* Build configuration list for PBXNativeTarget "TellMeMore" */;
 			buildPhases = (
+				3CFF24EE79052A9ABBC02E9A /* [CP] Check Pods Manifest.lock */,
 				96F6314A1DF35A44001F9557 /* Sources */,
 				96F6314B1DF35A44001F9557 /* Frameworks */,
 				96F6314C1DF35A44001F9557 /* Resources */,
+				282964E93C3340C5A88B8F38 /* [CP] Embed Pods Frameworks */,
+				F9DDC63B0246F0DBAF104A28 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -96,6 +173,7 @@
 				TargetAttributes = {
 					96F6314D1DF35A44001F9557 = {
 						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = V65WTYSNSY;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -131,12 +209,66 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		282964E93C3340C5A88B8F38 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TellMeMore/Pods-TellMeMore-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3CFF24EE79052A9ABBC02E9A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F9DDC63B0246F0DBAF104A28 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TellMeMore/Pods-TellMeMore-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		96F6314A1DF35A44001F9557 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				96F631541DF35A44001F9557 /* ViewController.swift in Sources */,
+				D2C574F01DF38CEC000A9DBB /* Tag.swift in Sources */,
+				96F631541DF35A44001F9557 /* MainVC.swift in Sources */,
+				D2C574E41DF37635000A9DBB /* Services.swift in Sources */,
+				D2C574EC1DF3876A000A9DBB /* TagCell.swift in Sources */,
+				D2C574EE1DF38A45000A9DBB /* TagVC.swift in Sources */,
+				D2C574EA1DF377EF000A9DBB /* Request.swift in Sources */,
+				D2C574E21DF36B88000A9DBB /* WebVC.swift in Sources */,
 				96F631521DF35A44001F9557 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -258,8 +390,10 @@
 		};
 		96F631611DF35A44001F9557 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 76E2A469733FFEDA085FA42B /* Pods-TellMeMore.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = V65WTYSNSY;
 				INFOPLIST_FILE = TellMeMore/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = me.jasonkcwong.TellMeMore;
@@ -270,8 +404,10 @@
 		};
 		96F631621DF35A44001F9557 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AFB013E9EF53843E749672F1 /* Pods-TellMeMore.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = V65WTYSNSY;
 				INFOPLIST_FILE = TellMeMore/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = me.jasonkcwong.TellMeMore;
@@ -299,6 +435,7 @@
 				96F631621DF35A44001F9557 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
