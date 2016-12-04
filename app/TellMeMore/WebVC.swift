@@ -14,7 +14,7 @@ class WebVC: UIViewController {
     
     var conceptString = ""
     
-    let _baseurl = "https://www.google.ca/#q="
+    let _baseurl = "https://www.bing.com/search?q="
     
     var _search: String!
     
